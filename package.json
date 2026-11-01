@@ -1,0 +1,39 @@
+{
+    "author": "Sterling Ely",
+    "dependencies": {},
+    "keywords": [],
+    "name": "image-face-spike",
+    "pebble": {
+        "capabilities": [],
+        "displayName": "Image Face Spike",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "JsReady",
+            "ReqBpp",
+            "ReqW",
+            "ReqH",
+            "ReqChunk",
+            "ImgW",
+            "ImgH",
+            "ImgBpp",
+            "ImgTotal",
+            "ImgPalette",
+            "ChunkOffset",
+            "ChunkData"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "emery",
+            "gabbro"
+        ],
+        "uuid": "0b6f8c1e-5d7a-4e0b-9c53-2a1f6d8e4b97",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "0.1.0"
+}
